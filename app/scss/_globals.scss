@@ -10,8 +10,15 @@ html {
 body {
     margin: 0;
     padding: 0;
-    line-height: 1.3;
     font-family: 'Public Sans', sans-serif;
+    font-size: $font-md;
+    color: $grayishBlue;
+    line-height: 1.3;
+}
+
+a, a:active, a:hover {
+  text-decoration: none;
+  color: $grayishBlue;
 }
 
 // Flexbox
