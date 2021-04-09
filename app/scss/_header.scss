@@ -29,7 +29,13 @@
     &__links {
 
         a {
-            font-size: 0.875rem;
+            font-size: $font-md;
+            color: $grayishBlue;
         }
+    }
+
+    &__cta {
+        font-size: $font-sm;
+        color: $white;
     }
 }

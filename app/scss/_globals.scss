@@ -18,7 +18,6 @@ body {
 
 a, a:active, a:hover {
   text-decoration: none;
-  color: $grayishBlue;
 }
 
 // Flexbox
@@ -39,4 +38,13 @@ a, a:active, a:hover {
   }
 
 
+}
+
+
+//Buttons 
+.button {
+  padding: 1rem 1.875rem;
+  background: linear-gradient(to right, $limeGreen, $brightCyan);
+  border: 0;
+  border-radius: 50px;
 }
