@@ -43,7 +43,7 @@ a, a:active, a:hover {
 
 //Buttons 
 .button {
-  padding: 1rem 1.875rem;
+  padding: 0.875rem 2.1875rem;
   background: linear-gradient(to right, $limeGreen, $brightCyan);
   border: 0;
   border-radius: 50px;
@@ -51,5 +51,15 @@ a, a:active, a:hover {
 
 // Visibiñity
 .hide-for-mobile {
-  
+  // hide for table and mobile
+  @include breackpoint-down(medium){
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  // hide for desktop viewport widths
+  @include breackpoint-up(large){
+    display: none;
+  }
 }
